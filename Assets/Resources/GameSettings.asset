@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe5dccb89ec8224eaa83afacff1883c, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  matchTime: 100
+  startingTime: 0
+  playerCanTransform: 1
+  weaponHitLayer:
+    serializedVersion: 2
+    m_Bits: 1011
+  selectedHiderIndex: 1
+  hiders:
+  - {fileID: 7774995416247802470, guid: 0a41267b3710f974aa57109728bf2d13, type: 3}
+  - {fileID: 6689742807672664565, guid: 33de7eb6acb49b548aec958ec153e2a1, type: 3}
+  hidersPreview:
+  - {fileID: 3570104719455803049, guid: 516dd955fe052b14f9a88f7fdd5e9035, type: 3}
+  - {fileID: 1195601667624181089, guid: 6e77d59ca77755d4e81049771b4a9773, type: 3}
+  selectedSeekerIndex: 0
+  seekers:
+  - {fileID: 6598023968705401932, guid: f8ddec37ce44fce4791a61a70ccc2290, type: 3}
+  seekersPreview: []
+  bulletHoles:
+  - {fileID: 1768994110572896958, guid: 9f38f1cf21b26384c91a4123280c2f74, type: 3}
+  blood: {fileID: 7042714913574013507, guid: 39e8f3c241df60a4ea4b8f2c4e6dd989, type: 3}
+  KillStat: {fileID: 2744134693396840092, guid: 9e36d6dc3de759748ba17b5b326790fc, type: 3}
+  postProcessing: 1
+  renderPipeline: {fileID: 11400000, guid: 19ba41d7c0026c3459d37c2fe90c55a0, type: 2}
+  mixer: {fileID: 24100000, guid: d92bf035a0af67a4f90f9c7e29798591, type: 2}
+  concreteFootsteps:
+  - {fileID: 8300000, guid: 622f42e8d781b8a44b119174e4ed9708, type: 3}
+  - {fileID: 8300000, guid: 18524d7f295d11b40a2b7bd3d9ef3561, type: 3}
+  - {fileID: 8300000, guid: c87c3a812abe2fc4baa1fe54b4b77172, type: 3}
+  - {fileID: 8300000, guid: ee6a6c12e92b76347881600e494ea047, type: 3}
+  - {fileID: 8300000, guid: 06438add0bb42f846b7f1e2e0fcb78cb, type: 3}
+  - {fileID: 8300000, guid: 7dd1b75dd97f9af468c655f59ab900cc, type: 3}
+  - {fileID: 8300000, guid: 294e5ecef1c038f4eaaaad457cad5981, type: 3}
+  - {fileID: 8300000, guid: 0810c6bbffb6c0143984f3145f710f69, type: 3}
+  - {fileID: 8300000, guid: ebd381bfafa32b844a6954fc40a08c2e, type: 3}
+  - {fileID: 8300000, guid: 5c3c2c44515d6fe44a395faf0741edc0, type: 3}
+  grassFootsteps: []
+  woodFootsteps: []
+  bulletImpact:
+  - {fileID: 8300000, guid: fceb333e433c97e4497267e3c3a508c3, type: 3}
+  - {fileID: 8300000, guid: f49b461f95e0def45b1ad2a5a350e574, type: 3}
+  - {fileID: 8300000, guid: 091908a06d0b56143aaf6d3913444ab7, type: 3}
+  - {fileID: 8300000, guid: fd208dd7a0eafc84f82ad5fde72ab8fc, type: 3}
+  tountSound: {fileID: 8300000, guid: 6d4a8c46038c6d64c91c1614c6f3addb, type: 3}
+  door_Open:
+  - {fileID: 8300000, guid: 80556da7f215db149b504f4acc761338, type: 3}
+  - {fileID: 8300000, guid: 42e9f579e4f326644b8deb0cead48ed6, type: 3}
+  - {fileID: 8300000, guid: b465d18275e65cb42a721efaffc730dc, type: 3}
+  door_Close:
+  - {fileID: 8300000, guid: 4999426670e03e14aa07d7c581cccd7f, type: 3}
+  - {fileID: 8300000, guid: 6a01c6cdadeb1da4eb88f2470b3b82aa, type: 3}
+  - {fileID: 8300000, guid: 8826fd72a37f22e48acb2baa4a5123cf, type: 3}
+  xAxis:
+    Value: 0
+    m_SpeedMode: 1
+    m_MaxSpeed: 5
+    m_AccelTime: 0.02
+    m_DecelTime: 0.02
+    m_InputAxisName: Mouse X
+    m_InputAxisValue: 0
+    m_InvertInput: 0
+    m_MinValue: -180
+    m_MaxValue: 180
+    m_Wrap: 1
+    m_Recentering:
+      m_enabled: 0
+      m_WaitTime: 0
+      m_RecenteringTime: 0
+      m_LegacyHeadingDefinition: 0
+      m_LegacyVelocityFilterStrength: 0
+  xAxisCapped:
+    Value: 0
+    m_SpeedMode: 0
+    m_MaxSpeed: 300
+    m_AccelTime: 0.02
+    m_DecelTime: 0.02
+    m_InputAxisName: Mouse X
+    m_InputAxisValue: 0
+    m_InvertInput: 0
+    m_MinValue: -95
+    m_MaxValue: 95
+    m_Wrap: 0
+    m_Recentering:
+      m_enabled: 0
+      m_WaitTime: 0
+      m_RecenteringTime: 0
+      m_LegacyHeadingDefinition: 0
+      m_LegacyVelocityFilterStrength: 0
+  yAxis:
+    Value: 0
+    m_SpeedMode: 1
+    m_MaxSpeed: 5
+    m_AccelTime: 0.02
+    m_DecelTime: 0.02
+    m_InputAxisName: Mouse Y
+    m_InputAxisValue: 0
+    m_InvertInput: 1
+    m_MinValue: -89
+    m_MaxValue: 89
+    m_Wrap: 0
+    m_Recentering:
+      m_enabled: 0
+      m_WaitTime: 0
+      m_RecenteringTime: 0
+      m_LegacyHeadingDefinition: 0
+      m_LegacyVelocityFilterStrength: 0
