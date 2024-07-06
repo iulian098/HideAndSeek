@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afe5dccb89ec8224eaa83afacff1883c, type: 3}
   m_Name: GameSettings
   m_EditorClassIdentifier: 
-  matchTime: 100
-  startingTime: 0
+  matchTime: 300
+  startingTime: 1
   playerCanTransform: 1
   weaponHitLayer:
     serializedVersion: 2
@@ -42,11 +42,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: c87c3a812abe2fc4baa1fe54b4b77172, type: 3}
   - {fileID: 8300000, guid: ee6a6c12e92b76347881600e494ea047, type: 3}
   - {fileID: 8300000, guid: 06438add0bb42f846b7f1e2e0fcb78cb, type: 3}
-  - {fileID: 8300000, guid: 7dd1b75dd97f9af468c655f59ab900cc, type: 3}
-  - {fileID: 8300000, guid: 294e5ecef1c038f4eaaaad457cad5981, type: 3}
-  - {fileID: 8300000, guid: 0810c6bbffb6c0143984f3145f710f69, type: 3}
-  - {fileID: 8300000, guid: ebd381bfafa32b844a6954fc40a08c2e, type: 3}
-  - {fileID: 8300000, guid: 5c3c2c44515d6fe44a395faf0741edc0, type: 3}
   grassFootsteps: []
   woodFootsteps: []
   bulletImpact:
